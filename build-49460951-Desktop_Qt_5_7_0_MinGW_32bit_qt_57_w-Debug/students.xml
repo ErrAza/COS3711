@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student student-number="11111111">
+        <initials>MAW</initials>
+        <last_name>VAN DER STUDENT</last_name>
+        <title>MEV</title>
+        <introduced>0</introduced>
+        <number_of_comments>0</number_of_comments>
+        <assignment_1_mark>0</assignment_1_mark>
+        <assignment_2_mark>0</assignment_2_mark>
+        <points>100</points>
+    </student>
+    <student student-number="22222222">
+        <initials>B</initials>
+        <last_name>MWANAFUNZI</last_name>
+        <title>MR</title>
+        <introduced>0</introduced>
+        <number_of_comments>0</number_of_comments>
+        <assignment_1_mark>0</assignment_1_mark>
+        <assignment_2_mark>0</assignment_2_mark>
+        <points>100</points>
+    </student>
+    <student student-number="33333333">
+        <initials>FA</initials>
+        <last_name>MUDZIDZI-STUDENT</last_name>
+        <title>MS</title>
+        <introduced>0</introduced>
+        <number_of_comments>0</number_of_comments>
+        <assignment_1_mark>0</assignment_1_mark>
+        <assignment_2_mark>0</assignment_2_mark>
+        <points>100</points>
+    </student>
+    <student student-number="44444444">
+        <initials>J</initials>
+        <last_name>KA UMFUNDI</last_name>
+        <title>MNR</title>
+        <introduced>0</introduced>
+        <number_of_comments>0</number_of_comments>
+        <assignment_1_mark>0</assignment_1_mark>
+        <assignment_2_mark>0</assignment_2_mark>
+        <points>100</points>
+    </student>
+    <student student-number="55555555">
+        <initials>G</initials>
+        <last_name>STUDENTO</last_name>
+        <title>MR</title>
+        <introduced>0</introduced>
+        <number_of_comments>0</number_of_comments>
+        <assignment_1_mark>0</assignment_1_mark>
+        <assignment_2_mark>0</assignment_2_mark>
+        <points>100</points>
+    </student>
+</students>
