@@ -23,6 +23,8 @@ void MainWindow::on_btnImport_clicked()
 
     Importer *importer = new Importer(filename);
     importer->Import();
+
+    UpdateViews();
 }
 
 void MainWindow::RefreshPoints()
@@ -129,11 +131,17 @@ void MainWindow::RefreshModel()
 
 void MainWindow::on_btnRefresh_clicked()
 {
+    UpdateViews();
+}
+
+void MainWindow::UpdateViews()
+{
     StudentModel *model = new StudentModel();
 
     ui->mainTable->setModel(model);
 
     ui->mainTable->resizeRowsToContents();
 
+    connect(model, SIGNAL(dataChanged(QModelIndex,QModelIndex,QVector<int>)), this, SLOT(on_btnRefresh_clicked()));
     RefreshPoints();
 }

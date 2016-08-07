@@ -14,6 +14,31 @@ Student::Student(QString sn, QString lastname, QString initials, QString title)
     m_NumberOfComments = 0;
 }
 
+void Student::SetA1Mark(float mark)
+{
+    m_A1Mark = mark;
+}
+
+void Student::SetA2Mark(float mark)
+{
+    m_A2Mark = mark;
+}
+
+void Student::SetIntroduced(bool Introduced)
+{
+    m_Introduced = Introduced;
+}
+
+void Student::SetNewTitle(QString title)
+{
+    m_Title = title;
+}
+
+void Student::SetNumberOfComments(int number)
+{
+    m_NumberOfComments = number;
+}
+
 const QString Student::GetLastName()
 {
     return m_LastName;

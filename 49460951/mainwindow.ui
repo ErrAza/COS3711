@@ -30,8 +30,8 @@
    <widget class="QPushButton" name="btnRefresh">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>10</y>
+      <x>390</x>
+      <y>30</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -69,23 +69,6 @@
      <bool>true</bool>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>897</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menuImport">
-    <property name="title">
-     <string>File</string>
-    </property>
-    <addaction name="actionImport_Students"/>
-   </widget>
-   <addaction name="menuImport"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">

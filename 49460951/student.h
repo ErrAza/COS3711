@@ -30,6 +30,12 @@ public:
     const int GetPoints();
     Rank m_Rank;
 
+    void SetNewTitle(QString title);
+    void SetIntroduced(bool Introduced);
+    void SetNumberOfComments(int number);
+    void SetA1Mark(float mark);
+    void SetA2Mark(float mark);
+
 private:
     QString m_StudentNumber;
     QString m_LastName;

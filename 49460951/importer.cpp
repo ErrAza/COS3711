@@ -42,6 +42,4 @@ void Importer::Import()
     QMessageBox msgBox;
     msgBox.setText(QString::number(newEntries) + " new students added.");
     msgBox.exec();
-
-    XMLParser::getInstance()->ParseToXML();
 }

@@ -76,6 +76,10 @@ void XMLParser::ParseFromXML()
                 }
 
                 Student *student = new Student(ID, lastname, initials, title);
+                student->SetA1Mark(a1mark);
+                student->SetA2Mark(a2mark);
+                student->SetIntroduced(introduced);
+                student->SetNumberOfComments(comments);
 
                 StudentList::getInstance()->append(student);
             }

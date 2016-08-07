@@ -20,6 +20,7 @@ public:
     ~MainWindow();
     void RefreshModel();
     void RefreshPoints();
+    void UpdateViews();
 
 private slots:
     void on_btnImport_clicked();

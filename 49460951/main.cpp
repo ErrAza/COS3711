@@ -9,5 +9,9 @@ int main(int argc, char *argv[])
 
     XMLParser::getInstance()->ParseFromXML();
 
-    return a.exec();
+    int r = a.exec();
+
+    XMLParser::getInstance()->ParseToXML();
+
+    return r;
 }
